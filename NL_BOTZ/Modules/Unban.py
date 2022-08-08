@@ -1,6 +1,6 @@
 from pyrogram import Client, filters
-from NL_BOTZ.helper_functions.admin_check import admin_check
-from NL_BOTZ.helper_functions.extract_user import extract_user
+from Jack_Network.helper_functions.admin_check import admin_check
+from Jack_Network.helper_functions.extract_user import extract_user
 
 
 @Client.on_message(filters.command(["unban", "unmute"]))
