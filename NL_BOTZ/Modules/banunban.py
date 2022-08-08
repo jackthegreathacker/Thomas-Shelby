@@ -1,10 +1,10 @@
-#code by @MS_OFFICIALS
+#code by @Jack_Network
 
 
 from pyrogram import filters, Client as Ms_officials 
 from time import time
 
-@Ms_officials.on_message(filters.command("ban"))
+@Jack_Network.on_message(filters.command("ban"))
 async def ban_users(bot, msg):
     user_id = msg.reply_to_message.from_user.id
     chat_id = msg.chat.id
@@ -14,7 +14,7 @@ async def ban_users(bot, msg):
         pass
     await msg.reply_text("ᴀɴᴏᴛʜᴇʀ ᴏɴᴇ ʙɪᴛᴇs ᴛʜᴇ ᴅᴜsᴛ...!")
 
-@Ms_officials.on_message(filters.command("unban"))
+@Jack_Network.on_message(filters.command("unban"))
 async def unban_users(bot, msg):
     user_id = msg.reply_to_message.from_user.id
     chat_id = msg.chat.id
