@@ -1,4 +1,4 @@
-# codes added by @lallu_tg
+# codes added by @Jack_Network
 # use with proper credits
 
 from pyrogram import Client, filters
@@ -15,7 +15,7 @@ DICE_E_MOJI = "🎲"
     f_onw_fliter
 )
 async def roll_dice(client, message):
-    """ @RollaDie """
+    """ @Jack_Network """
     rep_mesg_id = message.message_id
     if message.reply_to_message:
         rep_mesg_id = message.reply_to_message.message_id
